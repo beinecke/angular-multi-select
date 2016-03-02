@@ -961,7 +961,7 @@ angular.module( 'isteven-multi-select', ['ng'] ).directive( 'istevenMultiSelect'
                 $scope.lang.selectNone      = $sce.trustAsHtml( $scope.icon.selectNone + '&nbsp;&nbsp;全不选' );
                 $scope.lang.reset           = $sce.trustAsHtml( $scope.icon.reset      + '&nbsp;&nbsp;重置' );
                 $scope.lang.search          = 'Search...';
-                $scope.lang.nothingSelected = '请选择';
+                $scope.lang.nothingSelected = '请选择...';
             }
             $scope.icon.tickMark = $sce.trustAsHtml( $scope.icon.tickMark );
                 
