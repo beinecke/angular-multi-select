@@ -121,6 +121,7 @@
     background-color: #f1f1f1;
     line-height: 1.6;
     margin: 0px 0px 8px 0px;
+    padding: 0 10px
 }
 
 .multiSelect .helperButton.reset{
@@ -296,4 +297,7 @@
     margin-bottom:0px;
     max-height: 22px;
     max-width:22px;
+}
+.multiSelect .buttonLabel{
+    padding: 0 5px;
 }
